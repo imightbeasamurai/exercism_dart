@@ -4,7 +4,7 @@ Map<String, int> allergyScore = {
   'shellfish': 4,
   'strawberries': 8,
   'tomatoes': 16,
-  'chocolate ': 32,
+  'chocolate': 32,
   'pollen': 64,
   'cats': 128
 };
@@ -42,7 +42,7 @@ when we get to strawberries for example the allergicTo
 would return true and the item would be added to the 
 list that we would return meaning that the person is actually
 allergic to the item. And it keeps going over all the items
-in the Map allergyScore
+in the Map allergy
  */
   List<String> list(int score) {
     List<String> allergicItems = [];
