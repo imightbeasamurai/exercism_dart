@@ -53,7 +53,7 @@ void main() {
     test('paired and nested brackets', () {
       final result = matchingBrackets.isPaired('([{}({}[])])');
       expect(result, equals(true));
-    }, skip: true);
+    }, skip: false);
 
     test('unopened closing brackets', () {
       final result = matchingBrackets.isPaired('{[)][]}');
